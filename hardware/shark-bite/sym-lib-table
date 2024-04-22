@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mal_nano")(type "KiCad")(uri "${KIPRJMOD}/mal_nano.kicad_sym")(options "")(descr ""))
+  (lib (name "malenki-nano-rescue")(type "KiCad")(uri "${KIPRJMOD}/malenki-nano-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "malenki-nanoi")(type "KiCad")(uri "${KIPRJMOD}/malenki-nanoi.kicad_sym")(options "")(descr ""))
+  (lib (name "nanoiplus")(type "KiCad")(uri "${KIPRJMOD}/nanoiplus.kicad_sym")(options "")(descr ""))
+  (lib (name "drv8231")(type "KiCad")(uri "${KIPRJMOD}/drv8231.kicad_sym")(options "")(descr ""))
+  (lib (name "Sharkbite")(type "KiCad")(uri "${KIPRJMOD}/Sharkbite.kicad_sym")(options "")(descr ""))
+  (lib (name "bss138")(type "KiCad")(uri "C:/Users/ethan/Downloads/bss138.kicad_sym")(options "")(descr ""))
+)
