@@ -1150,7 +1150,7 @@
   (symbol (lib_id "power:GND") (at 203.2 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01249442-3fbf-44c4-9e41-7c37b89712e6)
-    (property "Reference" "#PWR018" (at 203.2 55.88 0)
+    (property "Reference" "#PWR020" (at 203.2 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.327 53.848 0)
@@ -1166,7 +1166,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1210,7 +1210,7 @@
   (symbol (lib_id "Device:C") (at 149.86 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b0030e3-97d6-4726-b917-72c61fef63d8)
-    (property "Reference" "C12" (at 152.781 99.187 0)
+    (property "Reference" "C8" (at 152.781 99.187 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 152.781 101.473 0)
@@ -1236,7 +1236,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C12") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1245,7 +1245,7 @@
   (symbol (lib_id "Device:C") (at 128.27 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19c72677-c166-4d54-8f59-572a153580c0)
-    (property "Reference" "C11" (at 128.27 80.01 90)
+    (property "Reference" "C6" (at 128.27 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10pF" (at 132.08 82.55 90)
@@ -1271,7 +1271,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C11") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1280,7 +1280,7 @@
   (symbol (lib_id "Device:C") (at 128.27 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19f9ce3e-6112-47c3-be9c-52edb46d1400)
-    (property "Reference" "C10" (at 128.27 72.39 90)
+    (property "Reference" "C5" (at 128.27 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22pF" (at 132.08 74.93 90)
@@ -1306,7 +1306,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C10") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1315,7 +1315,7 @@
   (symbol (lib_id "Device:C") (at 228.6 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 215e83d2-e873-4735-b43d-b93e560e3c41)
-    (property "Reference" "C14" (at 231.521 139.827 0)
+    (property "Reference" "C17" (at 231.521 139.827 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pF" (at 231.521 142.113 0)
@@ -1341,7 +1341,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C14") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -1350,7 +1350,7 @@
   (symbol (lib_id "power:GND") (at 57.15 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 220b8897-b1e8-4410-9ae5-f09fd636180f)
-    (property "Reference" "#PWR0105" (at 57.15 82.55 0)
+    (property "Reference" "#PWR011" (at 57.15 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.277 80.518 0)
@@ -1366,7 +1366,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1375,7 +1375,7 @@
   (symbol (lib_id "power:GND") (at 218.44 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38b6eefa-ffc1-40f8-b4f6-6b9b70fcd130)
-    (property "Reference" "#PWR019" (at 218.44 161.29 0)
+    (property "Reference" "#PWR021" (at 218.44 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.567 159.258 0)
@@ -1391,7 +1391,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1400,7 +1400,7 @@
   (symbol (lib_id "power:GND") (at 113.03 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b9f5546-7795-455e-b0ea-2366f4768b57)
-    (property "Reference" "#PWR010" (at 113.03 104.775 0)
+    (property "Reference" "#PWR013" (at 113.03 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.157 102.743 0)
@@ -1416,7 +1416,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1425,7 +1425,7 @@
   (symbol (lib_id "malenki-nanoi:A7105") (at 217.17 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 521b88df-0024-429c-a691-655a8edd80c0)
-    (property "Reference" "U1" (at 213.36 72.39 0)
+    (property "Reference" "U3" (at 213.36 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "A7105" (at 213.36 74.93 0)
@@ -1470,7 +1470,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1479,7 +1479,7 @@
   (symbol (lib_id "Device:C") (at 223.52 112.395 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52e761a0-c28e-41e0-a3bd-b32a8696a976)
-    (property "Reference" "C22" (at 226.441 111.252 0)
+    (property "Reference" "C16" (at 226.441 111.252 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 226.441 113.538 0)
@@ -1505,7 +1505,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C22") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1514,7 +1514,7 @@
   (symbol (lib_id "power:GND") (at 196.85 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56a21b09-4a19-482c-b55e-d0cc8f5e2ab5)
-    (property "Reference" "#PWR017" (at 196.85 69.85 0)
+    (property "Reference" "#PWR019" (at 196.85 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.977 67.818 0)
@@ -1530,7 +1530,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1574,7 +1574,7 @@
   (symbol (lib_id "Device:R") (at 199.39 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5902e9a6-0dad-47d3-b107-e5e2b73c9336)
-    (property "Reference" "R25" (at 199.39 103.9876 90)
+    (property "Reference" "R11" (at 199.39 103.9876 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200R" (at 199.39 106.299 90)
@@ -1603,7 +1603,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "R25") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1612,7 +1612,7 @@
   (symbol (lib_id "Device:C") (at 189.23 109.22 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61da5400-349c-4f48-a162-f52487e1921d)
-    (property "Reference" "C19" (at 189.23 105.41 90)
+    (property "Reference" "C12" (at 189.23 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 193.04 107.95 90)
@@ -1638,7 +1638,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C19") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1647,7 +1647,7 @@
   (symbol (lib_id "power:GND") (at 162.56 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 628ce967-e845-4675-9e09-970cb841c476)
-    (property "Reference" "#PWR013" (at 162.56 99.06 0)
+    (property "Reference" "#PWR016" (at 162.56 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.687 97.028 0)
@@ -1663,7 +1663,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1672,7 +1672,7 @@
   (symbol (lib_id "Device:C") (at 196.85 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6545753d-6d1e-4127-b61a-3db1ceec6d42)
-    (property "Reference" "C20" (at 199.771 58.547 0)
+    (property "Reference" "C13" (at 199.771 58.547 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 199.771 60.833 0)
@@ -1698,7 +1698,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C20") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1707,7 +1707,7 @@
   (symbol (lib_id "Device:C") (at 99.06 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66cb42e5-4d9e-40a2-a2c4-9364eaae7141)
-    (property "Reference" "C9" (at 101.981 78.867 0)
+    (property "Reference" "C4" (at 101.981 78.867 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1pF" (at 101.981 81.153 0)
@@ -1733,7 +1733,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C9") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1742,7 +1742,7 @@
   (symbol (lib_id "power:GND") (at 236.22 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 680ded8c-ec76-40cb-ae59-eac8baad37db)
-    (property "Reference" "#PWR021" (at 236.22 106.68 0)
+    (property "Reference" "#PWR023" (at 236.22 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.347 104.648 0)
@@ -1758,7 +1758,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1767,7 +1767,7 @@
   (symbol (lib_id "power:GND") (at 149.86 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ad03998-0b27-42d4-af6b-b70b32dd9da0)
-    (property "Reference" "#PWR012" (at 149.86 110.49 0)
+    (property "Reference" "#PWR015" (at 149.86 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.987 108.458 0)
@@ -1783,7 +1783,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1817,7 +1817,7 @@
   (symbol (lib_id "Device:C") (at 203.2 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b039e64-12fd-4db0-9464-422c8b55b4d9)
-    (property "Reference" "C21" (at 206.121 44.577 0)
+    (property "Reference" "C14" (at 206.121 44.577 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 206.121 46.863 0)
@@ -1843,7 +1843,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C21") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1881,7 +1881,7 @@
   (symbol (lib_id "power:GND") (at 181.61 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4653dc5-db98-4c8f-ad12-7b80eb8c3997)
-    (property "Reference" "#PWR016" (at 181.61 123.19 0)
+    (property "Reference" "#PWR018" (at 181.61 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.737 121.158 0)
@@ -1897,7 +1897,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1906,7 +1906,7 @@
   (symbol (lib_id "power:GND") (at 243.84 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1dac3fd-7479-47c1-9ec2-6f0b1fa227f4)
-    (property "Reference" "#PWR022" (at 243.84 93.98 0)
+    (property "Reference" "#PWR024" (at 243.84 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.967 91.948 0)
@@ -1922,7 +1922,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1931,7 +1931,7 @@
   (symbol (lib_id "power:GND") (at 177.8 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bad9db2d-f30d-42be-90e4-56433ec97bb4)
-    (property "Reference" "#PWR015" (at 177.8 74.93 0)
+    (property "Reference" "#PWR017" (at 177.8 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.927 72.898 0)
@@ -1947,7 +1947,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2028,7 +2028,7 @@
   (symbol (lib_id "power:GND") (at 99.06 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c911bff2-a403-4afe-a996-de1008234b55)
-    (property "Reference" "#PWR09" (at 99.06 90.17 0)
+    (property "Reference" "#PWR012" (at 99.06 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.187 88.138 0)
@@ -2044,7 +2044,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2053,7 +2053,7 @@
   (symbol (lib_id "power:GND") (at 223.52 116.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cac616fe-bab9-4bbe-b98d-3ccbf887fdae)
-    (property "Reference" "#PWR020" (at 223.52 122.555 0)
+    (property "Reference" "#PWR022" (at 223.52 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.647 120.523 0)
@@ -2069,7 +2069,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2078,7 +2078,7 @@
   (symbol (lib_id "Device:C") (at 144.78 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d104f9b6-35d9-40fd-8206-1975fac53040)
-    (property "Reference" "C16" (at 147.701 63.627 0)
+    (property "Reference" "C7" (at 147.701 63.627 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 147.701 65.913 0)
@@ -2104,7 +2104,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C16") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2148,7 +2148,7 @@
   (symbol (lib_id "Device:C") (at 189.23 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfcc0291-fde2-4968-8dfe-dc0fed520275)
-    (property "Reference" "C18" (at 189.23 96.52 90)
+    (property "Reference" "C11" (at 189.23 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "560pF" (at 193.04 99.06 90)
@@ -2174,7 +2174,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C18") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2183,7 +2183,7 @@
   (symbol (lib_id "Device:C") (at 177.8 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed3b10e6-1f62-4694-a165-a81089d52184)
-    (property "Reference" "C17" (at 180.721 63.627 0)
+    (property "Reference" "C10" (at 180.721 63.627 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 180.721 65.913 0)
@@ -2209,7 +2209,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C17") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2218,7 +2218,7 @@
   (symbol (lib_id "Device:C") (at 162.56 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f33e7671-b9c8-40c2-9120-c03d59cd8f50)
-    (property "Reference" "C13" (at 165.481 87.757 0)
+    (property "Reference" "C9" (at 165.481 87.757 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 165.481 90.043 0)
@@ -2244,7 +2244,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C13") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2253,7 +2253,7 @@
   (symbol (lib_id "Device:C") (at 243.84 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f65ffae7-fc80-4563-89b6-6365862c5faa)
-    (property "Reference" "C23" (at 246.761 82.677 0)
+    (property "Reference" "C18" (at 246.761 82.677 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 246.761 84.963 0)
@@ -2279,7 +2279,7 @@
     (instances
       (project "malenki-hv"
         (path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-          (reference "C23") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
