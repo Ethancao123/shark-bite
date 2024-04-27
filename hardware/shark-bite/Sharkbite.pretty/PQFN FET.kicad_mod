@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at -1.01 -5.94 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 58ea1f31-5ea2-458f-9f03-65265ccb0a7b)
   )
   (fp_text value "PQFN FET" (at -1.01 -4.44 unlocked) (layer "F.Fab")
