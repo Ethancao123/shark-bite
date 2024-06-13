@@ -558,6 +558,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2720,12 +2822,6 @@
 		(uuid "048db26f-efb9-4fd6-8aa6-35a9906ffee0")
 	)
 	(junction
-		(at 82.55 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04d2d7c0-fb27-46e8-bfe9-1a69d215b811")
-	)
-	(junction
 		(at 101.6 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2900,6 +2996,12 @@
 		(uuid "8e8795f4-1982-4207-a93d-06843c17d8c9")
 	)
 	(junction
+		(at 85.09 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "951fc908-d58a-432c-90b1-5620c4dc398e")
+	)
+	(junction
 		(at 193.04 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2984,6 +3086,12 @@
 		(uuid "db77c57b-a378-4a79-b625-0deb79ccd3f7")
 	)
 	(junction
+		(at 85.09 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc3f33d5-d21e-4c60-844f-5c164ec694e4")
+	)
+	(junction
 		(at 193.04 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3019,12 +3127,6 @@
 		(color 0 0 0 0)
 		(uuid "fdf282ee-7f5b-43eb-bc83-029d3fe2e079")
 	)
-	(junction
-		(at 82.55 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff470db7-f9ef-4034-9a1f-fa7c81e4d8f5")
-	)
 	(no_connect
 		(at 69.85 39.37)
 		(uuid "05b59436-b093-4861-88dd-c880fa0ccaaa")
@@ -3058,16 +3160,8 @@
 		(uuid "6f4d6bff-bc78-4c98-8cc3-125778b986d3")
 	)
 	(no_connect
-		(at 66.04 171.45)
-		(uuid "8886ae30-d5fe-4e76-becb-fc134b3a32da")
-	)
-	(no_connect
 		(at 43.18 58.42)
 		(uuid "a332c860-dd98-4538-a8f8-01526eceda72")
-	)
-	(no_connect
-		(at 66.04 166.37)
-		(uuid "baba4e0c-10eb-4fa0-b2a7-83254d17d0c9")
 	)
 	(no_connect
 		(at 69.85 50.8)
@@ -3187,7 +3281,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 82.55 71.12)
+			(xy 81.28 71.12) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3457,6 +3551,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 171.45) (xy 59.69 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a494446-01ce-48c5-8c00-3c40200b58d3")
+	)
+	(wire
+		(pts
 			(xy 227.33 30.48) (xy 259.08 30.48)
 		)
 		(stroke
@@ -3554,16 +3658,6 @@
 			(type default)
 		)
 		(uuid "4ad034c8-149d-46c9-a20e-8cb9211edba0")
-	)
-	(wire
-		(pts
-			(xy 82.55 78.74) (xy 95.25 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c5d0d2a-7bcd-436f-93c8-01eea16daeec")
 	)
 	(wire
 		(pts
@@ -3697,6 +3791,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 71.12) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5690bfc4-aaa9-4f62-b251-f1f9d4ee8cc0")
+	)
+	(wire
+		(pts
 			(xy 39.37 138.43) (xy 49.53 138.43)
 		)
 		(stroke
@@ -3704,6 +3808,26 @@
 			(type default)
 		)
 		(uuid "586b62f7-5a94-46c1-aff7-4f2147d0457b")
+	)
+	(wire
+		(pts
+			(xy 54.61 166.37) (xy 66.04 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fa1430-6def-419f-ae35-b71e70bf1b36")
+	)
+	(wire
+		(pts
+			(xy 59.69 173.99) (xy 54.61 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab0bb04-c427-4e21-8f46-87a9436ab289")
 	)
 	(wire
 		(pts
@@ -4017,7 +4141,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 78.74) (xy 82.55 78.74)
+			(xy 81.28 78.74) (xy 85.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4207,6 +4331,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 78.74) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6dd2a98-d8f1-48cb-ac4a-91daedb094f0")
+	)
+	(wire
+		(pts
 			(xy 201.93 68.58) (xy 201.93 73.66)
 		)
 		(stroke
@@ -4254,6 +4388,16 @@
 			(type default)
 		)
 		(uuid "beb71e21-5773-4883-8c3e-5380b77b328e")
+	)
+	(wire
+		(pts
+			(xy 66.04 171.45) (xy 59.69 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c027f3ef-4e67-434b-b808-fd9c44d2fa35")
 	)
 	(wire
 		(pts
@@ -4404,16 +4548,6 @@
 			(type default)
 		)
 		(uuid "e03e72e4-446b-44b0-8144-f4b42adf5555")
-	)
-	(wire
-		(pts
-			(xy 82.55 71.12) (xy 95.25 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0db9a6e-40bc-4d98-a863-5387e725cad9")
 	)
 	(wire
 		(pts
@@ -5190,7 +5324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.65 66.802 90)
 			(effects
 				(font
@@ -5984,6 +6118,71 @@
 			(project "malenki-hv"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 54.61 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43d24b9c-455a-4948-9681-f417198e50e9")
+		(property "Reference" "TP2"
+			(at 51.308 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 51.308 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "646a3923-cd43-44f2-ac38-9390ab5f5b0d")
+		)
+		(instances
+			(project "malenki-hv"
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6845,7 +7044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.65 43.942 90)
 			(effects
 				(font
@@ -7201,7 +7400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.61 70.358 90)
 			(effects
 				(font
@@ -8035,7 +8234,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 74.93 180)
+		(at 85.09 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8044,7 +8243,7 @@
 		(fields_autoplaced yes)
 		(uuid "a677892b-e0b7-40c6-ae9b-f987c8f82d12")
 		(property "Reference" "C23"
-			(at 85.471 73.7179 0)
+			(at 88.011 73.7179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,7 +8252,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 85.471 76.1421 0)
+			(at 88.011 76.1421 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +8261,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 81.5848 71.12 0)
+			(at 84.1248 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 74.93 0)
+			(at 85.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8279,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 74.93 0)
+			(at 85.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8288,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 82.55 74.93 0)
+			(at 85.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8297,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 82.55 74.93 0)
+			(at 85.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 70.358 90)
 			(effects
 				(font
@@ -9271,7 +9470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.61 47.498 90)
 			(effects
 				(font
@@ -9562,7 +9761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 43.942 90)
 			(effects
 				(font
@@ -9599,6 +9798,71 @@
 			(project "malenki-hv"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 54.61 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e542045c-0532-42e8-a5a4-a03fe449efa2")
+		(property "Reference" "TP1"
+			(at 51.308 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 51.308 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 54.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "039c6446-48c3-4083-9a02-4e5dd458dc16")
+		)
+		(instances
+			(project "malenki-hv"
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
+					(reference "TP1")
 					(unit 1)
 				)
 			)

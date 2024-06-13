@@ -1680,6 +1680,16 @@
 		)
 		(uuid "d45b27c2-bc57-4d2e-b08e-877161c62f42")
 	)
+	(text "Replace with https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AS78L15RTR-G1_C416201.pdf"
+		(exclude_from_sim no)
+		(at 83.82 104.902 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7ed3ed9-162e-4bd2-8a22-3b9176464870")
+	)
 	(symbol
 		(lib_id "Diode:SMAJ18A")
 		(at 48.26 52.07 270)
