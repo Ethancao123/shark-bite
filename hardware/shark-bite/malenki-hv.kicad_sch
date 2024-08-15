@@ -260,45 +260,40 @@
 				)
 			)
 		)
-		(symbol "Sharkbite:LR645N8-G"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Sharkbite:SOT-89-3_LDO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LR645N8-G"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TO-243AA_MCH"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "LR645N8-G"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -312,75 +307,12 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LR645N8-G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-243AA_MCH TO-243AA_MCH-M TO-243AA_MCH-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LR645N8-G_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
-					)
+			(symbol "SOT-89-3_LDO_1_1"
+				(rectangle
+					(start -6.35 -1.27)
+					(end 6.35 -8.89)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -388,9 +320,9 @@
 					)
 				)
 				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VIN"
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -405,10 +337,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "GND"
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -423,9 +355,9 @@
 						)
 					)
 				)
-				(pin output line
-					(at 40.64 0 180)
-					(length 7.62)
+				(pin input line
+					(at 8.89 -2.54 180)
+					(length 2.54)
 					(name "VOUT"
 						(effects
 							(font
@@ -1357,6 +1289,12 @@
 		(uuid "374630c4-ed55-4501-bab5-7e9cf96c4163")
 	)
 	(junction
+		(at 66.04 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47a2759b-13ad-4194-a0ac-350c5428f5dd")
+	)
+	(junction
 		(at 107.315 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1379,12 +1317,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d6e9d4e-f510-46fa-aeb5-058605f4bab2")
-	)
-	(junction
-		(at 97.155 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a92e974c-c93c-4713-a75d-3b016bd72494")
 	)
 	(junction
 		(at 125.095 55.88)
@@ -1411,10 +1343,10 @@
 		(uuid "b87bca67-b0b8-4b7f-9c03-90bf5e99ab75")
 	)
 	(junction
-		(at 97.155 82.55)
+		(at 97.79 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc7c2c1e-6ca5-414f-a3b8-674e28256cc2")
+		(uuid "d3e1a6e7-99c8-4d60-a84d-a66ef965df0b")
 	)
 	(junction
 		(at 100.965 48.26)
@@ -1450,16 +1382,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 82.55) (xy 97.155 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16985666-524b-482b-aa14-01c62430f9b3")
-	)
-	(wire
-		(pts
 			(xy 36.83 48.26) (xy 41.91 48.26)
 		)
 		(stroke
@@ -1470,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 80.01) (xy 44.45 80.01)
+			(xy 36.83 80.01) (xy 57.15 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1500,6 +1422,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 88.9) (xy 66.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e905c0a-143d-423b-b044-9263d3b6cc99")
+	)
+	(wire
+		(pts
 			(xy 60.96 48.26) (xy 100.965 48.26)
 		)
 		(stroke
@@ -1510,13 +1442,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 82.55) (xy 97.155 83.82)
+			(xy 74.93 80.01) (xy 85.09 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63c63894-545a-495c-af03-bc83ebb51961")
+		(uuid "5cb77428-b391-4a54-ab83-22b1b8d06fa6")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 36.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cceda74-6391-4af9-b828-1abf261fb13c")
 	)
 	(wire
 		(pts
@@ -1547,6 +1489,16 @@
 			(type default)
 		)
 		(uuid "7b77f250-8a97-4ee3-9c7f-37cbd34448a6")
+	)
+	(wire
+		(pts
+			(xy 36.83 91.44) (xy 36.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810b0517-02d8-4ca4-b1b6-d58ee5e82662")
 	)
 	(wire
 		(pts
@@ -1600,7 +1552,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 97.155 74.93)
+			(xy 85.09 74.93) (xy 97.79 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1640,6 +1592,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 82.55) (xy 97.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad074f7-e408-4251-883e-a00748b484bc")
+	)
+	(wire
+		(pts
 			(xy 125.095 55.88) (xy 132.08 55.88)
 		)
 		(stroke
@@ -1647,6 +1609,16 @@
 			(type default)
 		)
 		(uuid "ec49080e-dcee-425f-9ab1-13ee4c23e3e7")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 66.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa815ac9-a0a7-4c5c-99fa-770981c269b4")
 	)
 	(wire
 		(pts
@@ -1753,6 +1725,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fed5bca-5754-474d-92f7-0929e66782a2")
 		)
@@ -1770,7 +1751,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 87.63 0)
+		(at 66.04 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1779,7 +1760,7 @@
 		(fields_autoplaced yes)
 		(uuid "21e61ff6-959c-4bc3-8c5b-7fc9196264fa")
 		(property "Reference" "#PWR09"
-			(at 36.83 93.98 0)
+			(at 66.04 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1769,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 91.7631 0)
+			(at 66.04 95.5731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 87.63 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 87.63 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 87.63 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "malenki-nano:malenkipower"
+		(property "Footprint" "Sharkbite:Power Input"
 			(at 31.75 48.26 0)
 			(effects
 				(font
@@ -2205,6 +2186,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 31.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 31.75 48.26 0)
 			(effects
 				(font
@@ -2225,12 +2215,16 @@
 					(reference "J1")
 					(unit 1)
 				)
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
+					(reference "J1")
+					(unit 1)
+				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "malenki-nano-rescue:C-Device")
-		(at 97.155 78.74 0)
+		(at 97.79 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2238,7 +2232,7 @@
 		(dnp no)
 		(uuid "6df91170-5fc7-4a6e-b28f-b7de6a0ffb02")
 		(property "Reference" "C10"
-			(at 100.076 77.5716 0)
+			(at 100.711 77.5716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2241,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 100.076 79.883 0)
+			(at 100.711 79.883 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2250,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 98.1202 82.55 0)
+			(at 98.7552 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.155 78.74 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.155 78.74 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2277,7 @@
 			)
 		)
 		(property "Partnum" ""
-			(at 97.155 78.74 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,8 +2285,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96446"
-			(at 97.155 78.74 0)
+		(property "LCSC" ""
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,12 +2295,20 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 97.155 78.74 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2326,7 +2328,7 @@
 	)
 	(symbol
 		(lib_id "power:+10V")
-		(at 97.155 74.93 0)
+		(at 97.79 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2335,7 +2337,7 @@
 		(fields_autoplaced yes)
 		(uuid "71c184bd-7f25-4374-afba-5b292df8c6dd")
 		(property "Reference" "#PWR010"
-			(at 97.155 78.74 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2346,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 97.155 70.7969 0)
+			(at 97.79 70.7969 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.155 74.93 0)
+			(at 97.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.155 74.93 0)
+			(at 97.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 97.155 74.93 0)
+			(at 97.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2455,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 36.83 83.82 0)
 			(effects
 				(font
@@ -2471,6 +2473,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 36.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dade9888-d181-47bb-832a-16d95b23691a")
 		)
@@ -2481,6 +2491,86 @@
 			(project "malenki-hv"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sharkbite:SOT-89-3_LDO")
+		(at 66.04 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b6add8c-ba56-46ad-8cb6-4a33419c6b1d")
+		(property "Reference" "U3"
+			(at 66.04 76.2085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 77.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7fb43db-f00c-4296-a358-b3067157d121")
+		)
+		(pin "2"
+			(uuid "aba37ac6-0286-4d34-b801-03eb31f633e3")
+		)
+		(pin "3"
+			(uuid "04a5b8d3-aa08-4eed-ad96-d7405b6ac0a2")
+		)
+		(instances
+			(project "malenki-hv"
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2504,7 +2594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 25V"
+		(property "Value" "10uF"
 			(at 139.446 57.658 0)
 			(effects
 				(font
@@ -2549,7 +2639,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 136.525 56.515 0)
 			(effects
 				(font
@@ -2565,6 +2655,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 136.525 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2600,7 +2698,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 25V"
+		(property "Value" "10uF"
 			(at 110.49 53.34 0)
 			(effects
 				(font
@@ -2645,7 +2743,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 107.315 52.07 0)
 			(effects
 				(font
@@ -2661,6 +2759,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 107.315 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2739,6 +2845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 125.095 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cff113e1-dc28-40c8-8c5a-8bc390e08fb8")
 		)
@@ -2765,9 +2880,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c3bac1d0-32d7-4b3d-9e6e-3fbc18c01829")
 		(property "Reference" "C6"
-			(at 63.881 50.9016 0)
+			(at 63.881 50.8578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2892,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 63.881 53.213 0)
+			(at 63.881 53.2821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2936,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 60.96 52.07 0)
 			(effects
 				(font
@@ -2838,6 +2954,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "515c0bad-164f-4685-b1a2-9205e3706442")
 		)
@@ -2848,145 +2972,6 @@
 			(project "malenki-hv"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 97.155 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd94ee6a-7ef1-45d3-aaa9-73f68f2dda0c")
-		(property "Reference" "#PWR07"
-			(at 97.155 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.155 87.9531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.155 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.155 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.155 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f240523a-12ba-4ace-ac41-c9658fb678a4")
-		)
-		(instances
-			(project "malenki-hv"
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sharkbite:LR645N8-G")
-		(at 44.45 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de7d883a-76f0-4f35-8d26-0b496b24b496")
-		(property "Reference" "U3"
-			(at 64.77 70.2361 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LR645N8-G"
-			(at 64.77 73.069 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TO-243AA_MCH"
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LR645N8-G"
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd74dc74-827e-42b0-abfe-9d6279ad271b")
-		)
-		(pin "3"
-			(uuid "5ee1fcb5-2134-46d5-a82a-5387b6c537e9")
-		)
-		(pin "2"
-			(uuid "a73b3d4b-b27b-4ebb-b770-fd0552eace9b")
-		)
-		(instances
-			(project "malenki-hv"
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
-					(reference "U3")
 					(unit 1)
 				)
 			)

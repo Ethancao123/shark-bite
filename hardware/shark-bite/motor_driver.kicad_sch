@@ -917,6 +917,139 @@
 				)
 			)
 		)
+		(symbol "Diode:SMF5V0A"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF5V0A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMF5V0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF5V0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sharkbite:DRV8300DRGER"
 			(pin_names
 				(offset 0.254)
@@ -950,7 +1083,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "DRV8300DRGER"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8300.pdf?ts=1722508465762&ref_url=https%253A%252F%252Fduckduckgo.com%252F"
 				(at 17.526 7.62 0)
 				(effects
 					(font
@@ -967,14 +1100,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "DRV8300DRGER"
@@ -2101,7 +2226,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
+			(property "Footprint" "Sharkbite:1212-8S"
 				(at 12.7 -3.81 90)
 				(effects
 					(font
@@ -2296,24 +2421,6 @@
 				)
 			)
 			(symbol "IRFH7440TRPBF_Power_MOSFET_1_1"
-				(pin input line
-					(at 3.81 -15.24 90)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 8.89 -7.62 180)
 					(length 2.54)
@@ -2324,7 +2431,25 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1,2,3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -15.24 90)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2342,7 +2467,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2912,12 +3037,6 @@
 		(uuid "60218df7-8fca-4b2e-96b2-29b487d44820")
 	)
 	(junction
-		(at 27.94 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "602b4437-1ad3-48d1-83dc-edcc2f3a8df4")
-	)
-	(junction
 		(at 201.93 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2928,12 +3047,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65a2a66d-ab1d-4d8c-b93c-0b6077e18ef7")
-	)
-	(junction
-		(at 27.94 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "670f6f05-eb30-4d5e-84d5-46ebf74ee442")
 	)
 	(junction
 		(at 186.69 137.16)
@@ -3036,6 +3149,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6fcd3b3-888b-45cb-b107-eb727bb0a375")
+	)
+	(junction
+		(at 87.63 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba62228b-6a29-4714-8dae-10759ae5f0ef")
 	)
 	(junction
 		(at 199.39 137.16)
@@ -3691,16 +3810,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 43.18) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "4e9469a5-9085-4d65-8e0a-45ba9106fc73")
-	)
-	(wire
-		(pts
 			(xy 201.93 35.56) (xy 201.93 49.53)
 		)
 		(stroke
@@ -4281,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 43.18) (xy 93.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "acb6abfe-019e-4113-b123-4ba6803757da")
+	)
+	(wire
+		(pts
 			(xy 39.37 31.75) (xy 43.18 31.75)
 		)
 		(stroke
@@ -4381,6 +4500,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 43.18) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "bdd412bd-a40a-4118-b380-650150715cae")
+	)
+	(wire
+		(pts
 			(xy 259.08 82.55) (xy 267.97 82.55)
 		)
 		(stroke
@@ -4478,26 +4607,6 @@
 			(type default)
 		)
 		(uuid "d7e62c74-3bfc-417b-a7ef-b8a554ad4ad7")
-	)
-	(wire
-		(pts
-			(xy 27.94 138.43) (xy 39.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d968f4a1-e53d-4690-8a1c-ba74d3b04629")
-	)
-	(wire
-		(pts
-			(xy 27.94 130.81) (xy 39.37 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c42d41-0cb9-4482-93e8-adb7a3db7205")
 	)
 	(wire
 		(pts
@@ -4758,6 +4867,26 @@
 			(type default)
 		)
 		(uuid "fc9aca29-c9c9-4821-a402-e920a6cc22dd")
+	)
+	(text "Todo: Derate Bulk Caps"
+		(exclude_from_sim no)
+		(at 195.58 111.76 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "0535c9eb-60d2-4717-969f-023121ac5c5e")
+	)
+	(text "Operating Voltage: 2-6s (6V-25.2V)\nMax Voltage: 40V\nCurrent Rating: 40A??\nMax Current: 85A (MOSFET Limit)"
+		(exclude_from_sim yes)
+		(at 110.49 105.41 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "16bb9bdd-1d38-42f8-acd6-cb53d753fc0b")
 	)
 	(text "MOSFET Driver"
 		(exclude_from_sim no)
@@ -5299,6 +5428,93 @@
 		(uuid "fc41ebc0-7238-4117-b4b8-a945c3b84cec")
 	)
 	(symbol
+		(lib_id "Diode:SMF5V0A")
+		(at 87.63 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d56474-fb3f-446c-9771-06cd51d1f51c")
+		(property "Reference" "D2"
+			(at 89.662 45.7778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF5V0A"
+			(at 89.662 48.2021 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 87.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1972946"
+			(at 87.63 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af6bf874-e1bf-49e4-954e-b21fee52354d")
+		)
+		(pin "1"
+			(uuid "098bf12d-5e07-469d-b4a6-d41d4e7d602e")
+		)
+		(instances
+			(project "malenki-hv"
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 247.65 68.58 270)
 		(unit 1)
@@ -5343,6 +5559,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 247.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 247.65 68.58 0)
 			(effects
 				(font
@@ -5419,6 +5644,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 175.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5500,6 +5733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22584755-5f68-46fb-8725-d7743d39adf3")
 		)
@@ -5540,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
+		(property "Footprint" "Sharkbite:1212-8S"
 			(at 196.85 68.58 90)
 			(effects
 				(font
@@ -5576,13 +5818,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Vmax" "40V"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
 			(uuid "7a320f06-0e50-400b-88da-c69479c697d7")
 		)
-		(pin "2"
+		(pin "1,2,3"
 			(uuid "53c64253-ff89-488e-b2de-cbd7d6a734e2")
 		)
-		(pin "3"
+		(pin "4"
 			(uuid "5e85f5cb-b516-434a-bfc9-afbe7052e50b")
 		)
 		(instances
@@ -5619,7 +5870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
+		(property "Footprint" "Sharkbite:1212-8S"
 			(at 262.89 68.58 90)
 			(effects
 				(font
@@ -5655,13 +5906,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Vmax" "40V"
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1,2,3"
 			(uuid "5a4fe89c-ac3d-4003-8fe5-744f2e7b0b12")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "6a6cc922-1128-4570-984b-0b13f5924620")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "88071ee4-9e5f-4cfd-8d00-0ccfc0aa2c1d")
 		)
 		(instances
@@ -5726,6 +5986,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 210.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5807,6 +6075,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24e96cfb-b7df-4b8f-ac49-413588a563c6")
 		)
@@ -5847,7 +6124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
+		(property "Footprint" "Sharkbite:1212-8S"
 			(at 231.14 45.72 90)
 			(effects
 				(font
@@ -5883,13 +6160,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Vmax" "40V"
+			(at 234.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
 			(uuid "59509654-5be7-4ac6-8b04-cb9027e55467")
 		)
-		(pin "2"
+		(pin "5"
 			(uuid "0f9f66eb-3651-4fe4-b934-d00a370b48a5")
 		)
-		(pin "3"
+		(pin "1,2,3"
 			(uuid "4d96af08-d0ff-4b5e-82c1-e82516296bef")
 		)
 		(instances
@@ -5956,6 +6242,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 262.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "647b2e54-35be-4ab2-9fee-59e2f70a18f9")
 		)
@@ -5999,7 +6294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
+		(property "Footprint" "Sharkbite:1212-8S"
 			(at 196.85 45.72 90)
 			(effects
 				(font
@@ -6035,13 +6330,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Vmax" "40V"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
 			(uuid "eff3c93c-f0e4-4819-8bf3-0a7e0b69624a")
 		)
-		(pin "2"
+		(pin "1,2,3"
 			(uuid "053311de-956b-401c-b3f7-ad421ba3664b")
 		)
-		(pin "3"
+		(pin "4"
 			(uuid "be60c651-d0f3-49be-8a02-593048f85a30")
 		)
 		(instances
@@ -6108,6 +6412,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c92757c6-8ae6-4353-b315-aa423a1dad2d")
 		)
@@ -6149,7 +6461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 54.61 168.91 0)
 			(effects
 				(font
@@ -6168,6 +6480,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 54.61 173.99 0)
 			(effects
 				(font
@@ -6243,13 +6564,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7472948"
+		(property "LCSC" ""
 			(at 39.37 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6303,7 +6632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DRV8300DRGER"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8300.pdf?ts=1722508465762&ref_url=https%253A%252F%252Fduckduckgo.com%252F"
 			(at 83.566 128.27 0)
 			(effects
 				(font
@@ -6314,6 +6643,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 66.04 135.89 0)
 			(effects
 				(font
@@ -6470,6 +6808,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 267.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2892cd4a-9b52-4da8-a63a-3f0c1acc68b9")
 		)
@@ -6552,93 +6899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 27.94 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57b13460-2bd4-4a5e-8758-550062ef8105")
-		(property "Reference" "C19"
-			(at 30.861 133.4079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 30.861 135.8321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 26.9748 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 27.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 27.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 27.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cd6bab8-b019-44ea-a2c8-8b5d0f8a0ed6")
-		)
-		(pin "2"
-			(uuid "3623a052-f512-44ea-b5bd-04e2470d3bc1")
-		)
-		(instances
-			(project "malenki-hv"
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 234.95 64.77 0)
 		(unit 1)
@@ -6702,6 +6962,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2da82308-b037-4355-b56d-2d3fbe3d5a91")
 		)
@@ -6728,7 +6997,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bcc9536-73ca-4d6f-810e-e3a3f466181f")
 		(property "Reference" "C3"
-			(at 115.951 135.9478 0)
+			(at 115.951 134.7357 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,8 +7005,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 115.951 138.3721 0)
+		(property "Value" "1uF"
+			(at 115.951 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +7014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 140.97 0)
 			(effects
 				(font
@@ -6772,13 +7041,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7472948"
+		(property "LCSC" "C307331"
 			(at 113.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 115.951 139.5843 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -6807,7 +7085,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c83e3e9-4f47-4794-905c-5d69829fde27")
 		(property "Reference" "C5"
-			(at 115.951 161.3478 0)
+			(at 115.951 160.1357 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,8 +7093,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 115.951 163.7721 0)
+		(property "Value" "1uF"
+			(at 115.951 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +7102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 166.37 0)
 			(effects
 				(font
@@ -6851,13 +7129,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7472948"
+		(property "LCSC" "C307331"
 			(at 113.03 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 115.951 164.9843 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -6928,13 +7215,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7472948"
+		(property "LCSC" ""
 			(at 26.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 26.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7071,6 +7366,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 247.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6db04604-bdc3-4685-bffd-b5ceaee85fc6")
 		)
@@ -7170,7 +7474,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100"
 			(at 80.01 40.4439 90)
 			(effects
 				(font
@@ -7205,7 +7509,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" ""
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 80.01 43.18 0)
 			(effects
 				(font
@@ -7285,6 +7598,15 @@
 			)
 		)
 		(property "LCSC" "C11702"
+			(at 267.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 267.97 78.74 0)
 			(effects
 				(font
@@ -7419,6 +7741,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 181.61 68.58 0)
 			(effects
 				(font
@@ -7572,6 +7903,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70273923-2376-4555-8b06-d948dddd5d47")
 		)
@@ -7589,7 +7929,7 @@
 	)
 	(symbol
 		(lib_id "power:+10V")
-		(at 27.94 130.81 0)
+		(at 39.37 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7598,7 +7938,7 @@
 		(fields_autoplaced yes)
 		(uuid "74d23c41-c088-4204-b1c5-97aa2818767c")
 		(property "Reference" "#PWR025"
-			(at 27.94 134.62 0)
+			(at 39.37 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7947,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 27.94 126.6769 0)
+			(at 39.37 126.6769 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,7 +7955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 130.81 0)
+			(at 39.37 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,7 +7964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 130.81 0)
+			(at 39.37 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,7 +7973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 27.94 130.81 0)
+			(at 39.37 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,6 +8055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 35.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3384c53f-3528-4b2d-940d-559f0912d672")
 		)
@@ -7785,6 +8134,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9fa2003-aa12-4b42-b51f-8006a5312306")
 		)
@@ -7828,7 +8185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -7847,6 +8204,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 262.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 262.89 110.49 0)
 			(effects
 				(font
@@ -7895,7 +8261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
+		(property "Footprint" "Sharkbite:1212-8S"
 			(at 231.14 68.58 90)
 			(effects
 				(font
@@ -7931,13 +8297,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Vmax" "40V"
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
 			(uuid "3a9c9256-9797-421b-b9c2-ca8532b02930")
 		)
-		(pin "2"
+		(pin "1,2,3"
 			(uuid "3537b767-ec47-4b91-bef9-e20a84e15456")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "b9354c66-7480-46de-ad57-af14397a5690")
 		)
 		(instances
@@ -8002,6 +8377,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8086,6 +8469,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 87.63 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9744570e-9dc0-4a6d-8d85-ec4fad70b24e")
+		(property "Reference" "#PWR07"
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 54.9331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7326d50f-b253-41d0-95b9-b8b4fd873894")
+		)
+		(instances
+			(project "malenki-hv"
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 199.39 127 0)
 		(unit 1)
@@ -8138,6 +8587,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8217,6 +8674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 39.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b01412dc-00b8-48a1-975a-ca2620c8c40f")
 		)
@@ -8287,7 +8753,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" ""
 			(at 85.09 74.93 0)
 			(effects
 				(font
@@ -8303,6 +8769,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8322,7 +8796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 138.43 0)
+		(at 39.37 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,7 +8805,7 @@
 		(fields_autoplaced yes)
 		(uuid "a74089d7-b3bd-4075-bced-c24f39f14688")
 		(property "Reference" "#PWR026"
-			(at 27.94 144.78 0)
+			(at 39.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 142.5631 0)
+			(at 39.37 142.5631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 138.43 0)
+			(at 39.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 138.43 0)
+			(at 39.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 138.43 0)
+			(at 39.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,6 +8915,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d87378f5-42c5-40ca-9a93-fd8ba4fc5a99")
 		)
@@ -8509,6 +8991,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07fd191a-8765-4285-8d3a-44480ef814ed")
 		)
@@ -8543,7 +9034,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF (X5R)"
+		(property "Value" "10uF"
 			(at 52.451 135.8321 0)
 			(effects
 				(font
@@ -8579,13 +9070,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2858031"
+		(property "LCSC" ""
 			(at 49.53 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8724,6 +9223,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59fefe5d-446b-4fac-9069-6d4a7abb68c7")
 		)
@@ -8750,7 +9257,7 @@
 		(fields_autoplaced yes)
 		(uuid "b24d0005-7f54-4c4d-a476-272bc53c0f33")
 		(property "Reference" "C8"
-			(at 140.081 57.2078 0)
+			(at 140.081 55.9957 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,8 +9265,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 140.081 59.6321 0)
+		(property "Value" "1uF"
+			(at 140.081 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8767,7 +9274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 62.23 0)
 			(effects
 				(font
@@ -8786,6 +9293,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 140.081 60.8443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 137.16 58.42 0)
 			(effects
 				(font
@@ -8856,6 +9381,15 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 266.7 135.89 0)
 			(effects
 				(font
@@ -8968,7 +9502,7 @@
 		(fields_autoplaced yes)
 		(uuid "be7ea9e4-19d5-47c4-9c60-b23f0f9ae853")
 		(property "Reference" "C9"
-			(at 127.381 57.2078 0)
+			(at 127.381 55.9957 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,8 +9510,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 127.381 59.6321 0)
+		(property "Value" "1uF"
+			(at 127.381 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,7 +9519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.4252 62.23 0)
 			(effects
 				(font
@@ -9004,6 +9538,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 127.381 60.8443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 124.46 58.42 0)
 			(effects
 				(font
@@ -9083,6 +9635,15 @@
 			)
 		)
 		(property "LCSC" "C25744"
+			(at 267.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 267.97 64.77 0)
 			(effects
 				(font
@@ -9315,7 +9876,7 @@
 		(fields_autoplaced yes)
 		(uuid "cac8975a-217a-4634-97ab-3382cc0853c2")
 		(property "Reference" "C7"
-			(at 151.511 57.2078 0)
+			(at 151.511 55.9957 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,8 +9884,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 151.511 59.6321 0)
+		(property "Value" "1uF"
+			(at 151.511 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.5552 62.23 0)
 			(effects
 				(font
@@ -9351,6 +9912,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 151.511 60.8443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 148.59 58.42 0)
 			(effects
 				(font
@@ -9429,6 +10008,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 199.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d8c5834-e2bd-4b7e-b6d4-04c2459c8b33")
 		)
@@ -9489,6 +10076,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 181.61 45.72 0)
 			(effects
 				(font
@@ -9631,6 +10227,15 @@
 			)
 		)
 		(property "LCSC" "C2835081"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 55.88 54.61 0)
 			(effects
 				(font
@@ -9788,6 +10393,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b084dc86-b92a-4935-9ea7-864dc03c64a7")
 		)
@@ -9829,7 +10443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 54.61 161.29 0)
 			(effects
 				(font
@@ -9848,6 +10462,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 54.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" ""
 			(at 54.61 166.37 0)
 			(effects
 				(font
@@ -9921,6 +10544,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10002,6 +10633,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e03647b4-11c6-4cb2-ab05-8b389cd1f56c")
 		)
@@ -10042,7 +10682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
+		(property "Footprint" "Sharkbite:1212-8S"
 			(at 262.89 45.72 90)
 			(effects
 				(font
@@ -10078,13 +10718,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Vmax" "40V"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1,2,3"
 			(uuid "b50c2784-a873-4b90-9dd5-06159534072a")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "be0919b0-7911-4956-a181-26bcc4e5db8e")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "309d84b9-7f60-4f35-ac87-11ee6554edc4")
 		)
 		(instances
@@ -10151,13 +10800,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2858031"
+		(property "LCSC" ""
 			(at 95.25 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" ""
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10371,6 +11028,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" ""
+			(at 234.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "436dede7-0536-4b8a-a07b-485b4b4c961b")
 		)
@@ -10397,7 +11063,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff120883-d2b1-4d61-8666-8fef692ab1e3")
 		(property "Reference" "C4"
-			(at 115.951 148.6478 0)
+			(at 115.951 147.4357 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,8 +11071,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 115.951 151.0721 0)
+		(property "Value" "1uF"
+			(at 115.951 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10414,7 +11080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 153.67 0)
 			(effects
 				(font
@@ -10441,13 +11107,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7472948"
+		(property "LCSC" "C307331"
 			(at 113.03 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 115.951 152.2843 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
