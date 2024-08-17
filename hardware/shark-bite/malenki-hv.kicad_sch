@@ -264,16 +264,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U3"
+				(at 0 1.2615 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "78L10"
+				(at 0 -0.4199 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -289,7 +289,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401301629_DOWO-78L10_C6718417.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -299,6 +299,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vmax" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -320,9 +329,9 @@
 					)
 				)
 				(pin input line
-					(at 0 -11.43 90)
+					(at 8.89 -2.54 180)
 					(length 2.54)
-					(name "VSS"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -338,9 +347,9 @@
 					)
 				)
 				(pin input line
-					(at -8.89 -2.54 0)
+					(at 0 -11.43 90)
 					(length 2.54)
-					(name "VIN"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -356,9 +365,9 @@
 					)
 				)
 				(pin input line
-					(at 8.89 -2.54 180)
+					(at -8.89 -2.54 0)
 					(length 2.54)
-					(name "VOUT"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2215,10 +2224,6 @@
 					(reference "J1")
 					(unit 1)
 				)
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
-					(reference "J1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2514,7 +2519,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "78L10"
 			(at 66.04 77.8899 0)
 			(effects
 				(font
@@ -2531,7 +2536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401301629_DOWO-78L10_C6718417.pdf"
 			(at 66.04 77.47 0)
 			(effects
 				(font
@@ -2550,6 +2555,15 @@
 			)
 		)
 		(property "Vmax" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6718417"
 			(at 66.04 77.47 0)
 			(effects
 				(font
@@ -2584,9 +2598,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a1b635f7-8a73-4557-b436-a11904c7585d")
 		(property "Reference" "C2"
-			(at 139.446 55.3466 0)
+			(at 139.7 53.9749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2610,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 139.446 57.658 0)
+			(at 139.7 56.5149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,12 +2672,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 136.525 56.515 0)
+		(property "Vmax" "5V"
+			(at 139.7 59.0549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -2688,9 +2704,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "aa281105-e21a-4246-b1b4-c65f6605f4be")
 		(property "Reference" "C1"
-			(at 110.236 50.9016 0)
+			(at 110.49 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2716,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 110.49 53.34 0)
+			(at 110.49 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,12 +2778,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 107.315 52.07 0)
+		(property "Vmax" "25V"
+			(at 110.49 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"

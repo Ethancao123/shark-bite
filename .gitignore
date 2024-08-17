@@ -5,5 +5,5 @@ plot/
 #kicad backups
 *.bak
 *-bak
-
+*.db
 fp-info-cache

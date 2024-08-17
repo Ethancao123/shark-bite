@@ -2947,6 +2947,12 @@
 		(uuid "048db26f-efb9-4fd6-8aa6-35a9906ffee0")
 	)
 	(junction
+		(at 210.82 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07677742-ad9d-4440-bc45-3986d1666ea5")
+	)
+	(junction
 		(at 101.6 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3113,6 +3119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "951fc908-d58a-432c-90b1-5620c4dc398e")
+	)
+	(junction
+		(at 210.82 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95a00ad9-8365-4f9d-93de-c125e8b3b196")
 	)
 	(junction
 		(at 193.04 123.19)
@@ -4080,6 +4092,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 123.19) (xy 234.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa1ad10-2923-4ba1-a635-50d7c35a5f99")
+	)
+	(wire
+		(pts
 			(xy 212.09 68.58) (xy 208.28 68.58)
 		)
 		(stroke
@@ -4287,6 +4309,16 @@
 			(type default)
 		)
 		(uuid "902b0d19-0012-422c-8f97-3fb3541cee93")
+	)
+	(wire
+		(pts
+			(xy 210.82 130.81) (xy 234.95 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92159ac0-0006-42f3-b05c-0e3950ce8408")
 	)
 	(wire
 		(pts
@@ -5602,7 +5634,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d07465b-c842-4527-99a9-4761b1ede82f")
 		(property "Reference" "C42"
-			(at 178.181 139.7579 0)
+			(at 179.07 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5643,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 178.181 142.1821 0)
+			(at 179.07 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,12 +5678,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 175.26 140.97 0)
+		(property "Vmax" "25V"
+			(at 179.07 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -5944,7 +5977,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a638da0-7fa6-42b4-bad8-88771489f0d6")
 		(property "Reference" "C39"
-			(at 213.741 139.7579 0)
+			(at 214.63 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +5986,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 213.741 142.1821 0)
+			(at 214.63 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,12 +6021,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 210.82 140.97 0)
+		(property "Vmax" "25V"
+			(at 214.63 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -6368,7 +6402,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e009c11-5040-4968-83de-0e86ebe3b1de")
 		(property "Reference" "C34"
-			(at 213.741 125.7879 0)
+			(at 214.63 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6411,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 213.741 128.2121 0)
+			(at 214.63 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,12 +6446,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 210.82 127 0)
+		(property "Vmax" "25V"
+			(at 214.63 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -6520,21 +6555,21 @@
 		(fields_autoplaced yes)
 		(uuid "43da0cdd-07a7-490b-8144-a405ce1ef7e7")
 		(property "Reference" "C21"
-			(at 42.291 133.4079 0)
+			(at 35.56 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 42.291 135.8321 0)
+			(at 35.56 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
@@ -6573,12 +6608,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 39.37 134.62 0)
+		(property "Vmax" "15V"
+			(at 35.56 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -8090,7 +8126,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a98360b-5238-48dd-a10d-709fc3ae4511")
 		(property "Reference" "C41"
-			(at 189.611 139.7579 0)
+			(at 190.5 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +8135,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 189.611 142.1821 0)
+			(at 190.5 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,12 +8170,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 186.69 140.97 0)
+		(property "Vmax" "25V"
+			(at 190.5 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -8335,7 +8372,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ff0cdcf-3ae6-45bd-9610-a2e07b091c58")
 		(property "Reference" "C37"
-			(at 178.181 125.7879 0)
+			(at 179.07 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +8381,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 178.181 128.2121 0)
+			(at 179.07 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,12 +8416,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 175.26 127 0)
+		(property "Vmax" "25V"
+			(at 179.07 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -8545,7 +8583,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c34960e-c7ce-49be-83b7-475af38f84e0")
 		(property "Reference" "C35"
-			(at 202.311 125.7879 0)
+			(at 203.2 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +8592,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 202.311 128.2121 0)
+			(at 203.2 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,12 +8627,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 199.39 127 0)
+		(property "Vmax" "25V"
+			(at 203.2 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -8709,7 +8748,7 @@
 		(fields_autoplaced yes)
 		(uuid "a677892b-e0b7-40c6-ae9b-f987c8f82d12")
 		(property "Reference" "C23"
-			(at 88.011 73.7179 0)
+			(at 88.9 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +8757,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 88.011 76.1421 0)
+			(at 88.9 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,12 +8810,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 85.09 74.93 0)
+		(property "Vmax" "10V"
+			(at 88.9 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -8871,7 +8911,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9668620-e5f7-4f17-a5e1-211f42370762")
 		(property "Reference" "C43"
-			(at 165.481 139.7579 0)
+			(at 166.37 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +8920,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 165.481 142.1821 0)
+			(at 166.37 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,12 +8955,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 162.56 140.97 0)
+		(property "Vmax" "25V"
+			(at 166.37 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -9026,7 +9067,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac5fec66-ee3e-4d2a-a3df-dd803a3fd5ec")
 		(property "Reference" "C22"
-			(at 52.451 133.4078 0)
+			(at 53.34 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,7 +9076,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 52.451 135.8321 0)
+			(at 53.34 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,12 +9120,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 49.53 134.62 0)
+		(property "Vmax" "15V"
+			(at 53.34 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -9179,7 +9221,7 @@
 		(fields_autoplaced yes)
 		(uuid "afa2877c-befe-44dc-a48d-e17df57fe5cb")
 		(property "Reference" "C38"
-			(at 165.481 125.7879 0)
+			(at 166.37 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,7 +9230,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 165.481 128.2121 0)
+			(at 166.37 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,12 +9265,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 162.56 127 0)
+		(property "Vmax" "25V"
+			(at 166.37 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -9486,6 +9529,94 @@
 			(project "malenki-hv"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd867750-ed10-4876-ab81-70fdd3cb06d3")
+		(property "Reference" "C12"
+			(at 238.76 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 238.76 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.9152 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Yunxing-SPT1EM101E08OR_C556232.pdf"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "25V"
+			(at 238.76 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" " C556232"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c055892-132d-4e27-a6e4-4d17f93b4b46")
+		)
+		(pin "2"
+			(uuid "cf81a100-03b7-4c8f-b0e4-d68138509092")
+		)
+		(instances
+			(project "malenki-hv"
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9964,7 +10095,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdfdeddc-d4c6-4346-99d8-82fc9fcb996d")
 		(property "Reference" "C40"
-			(at 202.311 139.7579 0)
+			(at 203.2 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +10104,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 202.311 142.1821 0)
+			(at 203.2 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,12 +10139,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 199.39 140.97 0)
+		(property "Vmax" "25V"
+			(at 203.2 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -10502,7 +10634,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5516206-bcb8-4453-9203-b819dee2014b")
 		(property "Reference" "C36"
-			(at 189.611 125.7879 0)
+			(at 190.5 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10511,7 +10643,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 189.611 128.2121 0)
+			(at 190.5 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,12 +10678,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 186.69 127 0)
+		(property "Vmax" "25V"
+			(at 190.5 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -10756,7 +10889,7 @@
 		(fields_autoplaced yes)
 		(uuid "fae41891-8ec8-452d-be41-ad8b382cd7d0")
 		(property "Reference" "C28"
-			(at 98.171 73.7179 0)
+			(at 99.06 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10765,7 +10898,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 98.171 76.1421 0)
+			(at 99.06 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,12 +10942,13 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
-			(at 95.25 74.93 0)
+		(property "Vmax" "10V"
+			(at 99.06 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
