@@ -1,0 +1,30 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*%
+%TF.CreationDate,2024-10-02T01:17:14-05:00*%
+%TF.ProjectId,malenki-hv,6d616c65-6e6b-4692-9d68-762e6b696361,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.4) date 2024-10-02 01:17:14*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10O,0.850000X0.850000*%
+%ADD11R,0.850000X0.850000*%
+%ADD12C,0.990600*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J3*%
+X126000000Y-74250000D03*
+D11*
+X126000000Y-75250000D03*
+%TD*%
+D12*
+%TO.C,J2*%
+X126516000Y-82960000D03*
+X124484000Y-82960000D03*
+X125500000Y-88040000D03*
+%TD*%
+M02*

@@ -2308,7 +2308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
+		(property "Vmax" "10V"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -2478,7 +2478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vmax" ""
+		(property "Vmax" "50V"
 			(at 36.83 83.82 0)
 			(effects
 				(font
